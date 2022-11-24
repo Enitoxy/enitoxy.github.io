@@ -7,6 +7,15 @@ img {
     border: 2px solid rgb(185, 88, 255);
 }
 
+.shake {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 25px;
+    border: 2px solid rgb(185, 88, 255);
+}
+
 h1 {
 
     align-items: center;
@@ -23,7 +32,7 @@ h1 {
 
 a {
     display: block;
-    width: 50%;
+    width: 38%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
@@ -33,9 +42,16 @@ body {
     background-color: rgb(189, 255, 189);
 }
 
-img:hover {
+.dis {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 25%;
+    height: 25%;
+}
+
+.shake:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.75s;
+    animation: shake 0.65s;
 
     /* When the animation is finished, start again */
     animation-iteration-count: infinite;
