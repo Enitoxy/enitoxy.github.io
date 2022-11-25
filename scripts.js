@@ -1,6 +1,6 @@
 $(document).ready(function () {
+    const audio = new Audio("scream.mp3");
     $(".dis").click(function () {
-        const audio = new Audio("scream.mp3");
         audio.play();
         setTimeout(() => {
             $(this).hide();
