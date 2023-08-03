@@ -16,6 +16,10 @@ img {
     border: 2px solid rgb(185, 88, 255);
 }
 
+p {
+    text-align: center;
+}
+
 h1 {
 
     align-items: center;
